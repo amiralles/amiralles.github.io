@@ -1,42 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
+    <title>Amiralles Blog</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Dec 2015 21:13:31 -0300</pubDate>
-    <lastBuildDate>Mon, 07 Dec 2015 21:13:31 -0300</lastBuildDate>
+    <pubDate>Mon, 07 Dec 2015 21:30:04 -0300</pubDate>
+    <lastBuildDate>Mon, 07 Dec 2015 21:30:04 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 07 Dec 2015 20:28:23 -0300</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/12/07/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/12/07/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
     
       <item>
         <title>Install Command-T on Windows</title>
@@ -165,6 +137,20 @@
         <category>How</category>
         
         <category>To</category>
+        
+      </item>
+    
+      <item>
+        <title>How to get windows.external to work when using Awesomium.NET</title>
+        <description>&lt;b style=&quot;background-color: yellow;&quot;&gt;Note: There is an updated version of this post &lt;a href=&quot;http://www.alemiralles.blogspot.com.ar/2013/08/how-to-get-windowsexternal-to-work-when.html&quot;&gt;right here&lt;/a&gt;&amp;nbsp;(with source code and all stuff)&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;I been doing some experiments with the &lt;a href=&quot;http://awesomium.com/&quot; target=&quot;_blank&quot;&gt;Awesomium&lt;/a&gt;&amp;nbsp;web browser framework, and after a lot of failing attempts, I finally got windows.external calls working.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;a href=&quot;http://awesomium.com/&quot; target=&quot;_blank&quot;&gt;Awesomium&lt;/a&gt;&amp;nbsp;is a windowless port of Chromium/WebKit. For WinForm developers,&amp;nbsp;an alternative way to embed web pages in your winforms or WPF apps without having to use the WebBrowser control.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;For a long time, I been using the IE embedded browser to show reports (webpages) in winform apps, with let say…, acceptable results ;), but the thruth is there is a lot of goodness out there into the wild with better support for css, html 5, etc. So I decided to install Awesomium.NET and give it a try.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;While the API is pretty intuitive, I had some trouble trying to call C# methods from Javascript, a fairly easy thing to do with the classic webbrowser control.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;b&gt;This is how things work when using embedded IE Browser&lt;/b&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;C# code&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-g6vclZembtQ/UP25stqiDBI/AAAAAAAAAeQ/g_8ExFRyAE0/s1600/_obj-for-scripting.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-g6vclZembtQ/UP25stqiDBI/AAAAAAAAAeQ/g_8ExFRyAE0/s1600/_obj-for-scripting.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-JbRo4jwuv9Y/UP25ptigpRI/AAAAAAAAAeI/AEWlr0a2mL8/s1600/_obj-for-call.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-JbRo4jwuv9Y/UP25ptigpRI/AAAAAAAAAeI/AEWlr0a2mL8/s1600/_obj-for-call.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;html code&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-qAR9kX_8UwA/UP253UzIWWI/AAAAAAAAAeY/3I4EbPwfSQo/s1600/_calling-from-js.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-qAR9kX_8UwA/UP253UzIWWI/AAAAAAAAAeY/3I4EbPwfSQo/s1600/_calling-from-js.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;b&gt;And this is how to do it when using Awesomium.NET.&lt;/b&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;C# code&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-4k7JO-VUuFE/UP26HtlmRSI/AAAAAAAAAeg/Tk6rsnujLzI/s1600/binding-global-object.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;306&quot; src=&quot;http://3.bp.blogspot.com/-4k7JO-VUuFE/UP26HtlmRSI/AAAAAAAAAeg/Tk6rsnujLzI/s640/binding-global-object.png&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Html code&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-ljL041sR7ec/UP26PWke-UI/AAAAAAAAAeo/DnSmm_rrb_A/s1600/calling-global-object.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-ljL041sR7ec/UP26PWke-UI/AAAAAAAAAeo/DnSmm_rrb_A/s1600/calling-global-object.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Aside for this pitfall, this framework is great, it is easy to use, well documented and it comes with a bunch of working samples (for both, WinForms and WPF apps). Highly recommendable.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;In this post I&#39;m using Awesomium 1.7.0 RC3. I know the API has change from previous releases and were a lot of bug fixes (some of them related to javascript interop). If you are running on a previous version of the framework, the code seen above may not work.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+        <pubDate>Thu, 29 Aug 2013 13:22:39 -0300</pubDate>
+        <link>http://yourdomain.com/awesomium.net/c%23/2013/08/29/How-to-get-windows.external-to-work-when-using-Awesomium.NET.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/awesomium.net/c%23/2013/08/29/How-to-get-windows.external-to-work-when-using-Awesomium.NET.html</guid>
+        
+        
+        <category>Awesomium.NET</category>
+        
+        <category>C#</category>
         
       </item>
     
