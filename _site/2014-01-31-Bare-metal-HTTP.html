@@ -1,0 +1,9 @@
+---           
+layout: post
+title: Bare metal HTTP
+date: 2014-01-31 21:23:45 UTC
+updated: 2014-01-31 21:23:45 UTC
+comments: false
+categories: HTTP TCP
+---
+This time I’ll show you how to create a simple console app that requests resources over the internet using the lowest level APIs (at least the lowest level available in .NET).<br /><br />The whole point of this post is to prove that there is no magic behind entering a URL in the web browser and get a web page out of that.<br /><br />This little app requests a webpage and prints out the response to the console. If you want, you can extend it to save the content to a local file and then show it up in the web browser or whatever. (Maybe I'll do that in a future post).<br /><br />Here I’m using IP and TCP (Network and Transport protocol respectively) to connect the app to the web site, send a request and get a response. The code is self-descriptive but as usual if you have any doubt feel free to contact me.<br /><br />(For the sake of simplicity, I'm not handling exceptions nor writing single responsibility methods and stuff like that).<br /><br /><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-aq9U4WNKBDI/UuwUVtZ4MRI/AAAAAAAAApQ/Zppgt_qcaVQ/s1600/code.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-aq9U4WNKBDI/UuwUVtZ4MRI/AAAAAAAAApQ/Zppgt_qcaVQ/s1600/code.png" /></a></div><br /><br />If you are interested in learn more about http and how the web works, I highly recommend to take a look at this series by Scott Allen:<br /><br /><a href="http://odetocode.com/Articles/741.aspx">http://odetocode.com/Articles/741.aspx</a>

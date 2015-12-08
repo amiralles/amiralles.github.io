@@ -1,0 +1,9 @@
+---           
+layout: post
+title: Oracle - How to insert a string longer than 4k using C#
+date: 2013-09-09 14:44:17 UTC
+updated: 2013-09-09 14:44:17 UTC
+comments: false
+categories: How To Oracle
+---
+<div class="MsoNormal">And this is another PITA sponsored by our good friends of Oracle ;)<o:p></o:p></div><div class="MsoNormal"><br /></div>After being struggling whit this issue for a whole day, I finally figure it out. There is a bunch of posts on the web saying that you should change the column type on the table from let’s say LONG to CLOB or stuff like that… but I have tried it and it has no effect if you are working with C# (maybe make sense if you are working with PL. I’m not sure, haven’t test it). The thing is even if you change the column type, you’ll still get an error saying “the string literal is too long…” The way to insert strings larger than 4K into Oracle databases is using bindings. And yes, you can insert 4k plus strings into LONG columns, there is no such 4k limit. This is how you do that:<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-Z-JQCeD4ikE/Ui3c9cmBN2I/AAAAAAAAAos/KvbX07febBY/s1600/Insert-4k-long-strings-in-oracle.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-Z-JQCeD4ikE/Ui3c9cmBN2I/AAAAAAAAAos/KvbX07febBY/s1600/Insert-4k-long-strings-in-oracle.png" /></a></div><br /><div class="MsoNormal">* I skip error handling, disposing objects, etc… just for brevity, of course you shouldn't ;)<o:p></o:p></div><div class="MsoNormal"><br /></div><div class="MsoNormal">Another interesting thing that almost every posts got wrong is that <b>you don’t have to specify the parameter type, the library will choose the right type for you</b>. So don’t waste your time on that.</div>
